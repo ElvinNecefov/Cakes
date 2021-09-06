@@ -1,0 +1,640 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.container {
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+/* section header */
+
+
+.bg-light {
+    background-color: #fff !important;
+}
+
+#nav-snobella {
+    color: #000000;
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* section-text */
+.bg-header {
+    background-image: url("../img/michaela-baum-VnM6_liIRJ0-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.h-500 {
+    height: 500px;
+}
+
+.header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.header-text > div > h1 {
+    color: #fff;
+}
+
+/* section services */
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:goldenrod;
+}
+
+.services-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    background-color: hotpink;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.services-text {
+    padding-left: 20px;
+}
+
+.services-text > h4 {
+    padding-top: 50px;
+    color: goldenrod;
+}
+
+.services-text > p {
+    color: gray;
+}
+
+/* section works */
+
+.works {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:goldenrod;
+}
+
+.work-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.work-text {
+    background-color: #ff9002;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    border: 5px solid goldenrod;
+}
+
+/* section prices */
+
+.prices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:goldenrod;
+}
+
+.price-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.prices-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    background-color: hotpink;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.price-gallery > h5 {
+    margin-top: 20px;
+    color: goldenrod;
+}
+
+.price-gallery > p {
+    color: gray;
+}
+
+.price-button > a {
+    color: #fff;
+    background-color: #ff9002;
+    padding: 5px 10px;
+    display: block;
+  
+}
+
+.price-button {
+    padding: 5px 20px;
+    display: inline-block;
+}
+
+/* section testimonial */
+
+.testimonial {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:goldenrod;
+}
+
+.testimonial-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: top center;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.bg-b16d26 {
+    background-color: #b16d26;
+}
+
+.testimonial-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+/* section about */
+
+.about-us {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:goldenrod;
+}
+
+
+
+.about-text > h4 {
+    color: goldenrod;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+   
+.color-gray {
+    color:gray;
+    border-left: solid 3px goldenrod;
+    padding-left: 20px;
+}
+
+
+.about-button > a {
+    color: #fff;
+    background-color: #ff9002;
+    padding: 5px 10px;
+    display: block;
+  
+}
+
+/* section team */
+
+.team-header {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:goldenrod;
+}
+
+
+
+.team > h3 {
+    color: goldenrod;
+    margin-top: 10px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-icon {
+    display: flex;
+}
+
+.team-icon > li {
+    padding-left: 10px;
+}
+
+.team-text {
+    text-align: center;
+    color: gray;
+}
+
+.color-goldenrod {
+    color:goldenrod
+}
+
+
+/* section contact */
+
+.contact-us {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:goldenrod;
+}
+
+.contact-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    background-color: hotpink;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+.contact-text {
+    padding-left: 20px;
+}
+
+.contact-text > h4 {
+    color: goldenrod;
+    padding-top: 50px;
+}
+
+.contact-text > p {
+    color: gray;
+}
+
+/* section footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    padding: 20px 0px;
+}
+
+.bg-goldenrod {
+    background-color: goldenrod;
+}
+
+.footer > div > p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+
+/* Phone version */
+@media only screen and (max-width:576px) {
+
+    /* ============Section Navbar================= */
+     #nav-snobella {
+        font-size: 20px;
+        line-height: 100%;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        text-align: center;
+    }
+
+    .header-text > div > h1 {
+        text-align: center;
+    }
+
+
+    .services {
+        margin-top: 30px;
+    }
+
+    .services-gallery {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .works {
+        margin-top: 30px;
+    }
+
+    .work-gallery {
+        margin-top: 10px;
+    }
+
+    .work-text > h5 {
+        padding-top: 10px;
+    }
+
+    .prices {
+        margin-top: 30px;
+    }
+
+   .mt-20 {
+       margin-top: 20px;
+    }
+
+    .testimonial-text {
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+
+    .marketing {
+        padding-bottom: 10px;
+    }
+
+    .testimonial-header {
+        margin-top: 10px;
+    }
+
+    .about {
+        margin-top: 10px;
+    }
+
+    .about-img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    
+    }
+
+    .about-text > h4 {
+       text-align: center;
+       margin-top: 10px;
+    }
+
+    .about-button {
+        padding: 5px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fw-600 {
+        text-align: center;
+    }
+
+    .team {
+       margin-top: 10px;
+    }
+
+    .team-img {
+        width: 100%;
+        height: 330px;
+        object-fit: cover;
+    }
+   
+
+    .contact-gallery {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .contact-us {
+        margin-top: 20px;
+      
+    }
+
+    .contact-text > h4 {
+        padding-top: 20px;
+    }
+
+  
+}
+
+
+
+/* Tablet version */
+@media (min-width:768px) and (max-width:992px) {
+
+    /* ============Section Navbar================= */
+     #nav-snobella {
+        font-size: 30px;
+        line-height: 100%;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        text-align: center;
+    }
+
+    .services {
+        margin-top: 50px;
+    }
+
+    .services-gallery {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .works {
+        margin-top: 50px;
+    }
+
+    .work-gallery {
+        margin-top: 20px;
+    }
+
+    .prices {
+        margin-top: 50px;
+    }
+
+    .price-gallery {
+        margin-top: 20px;
+    }
+
+    .testimonial-text {
+        margin-top: 30px;
+    }
+
+    .testimonial-header {
+        margin-top: 30px;
+    }
+
+    .marketing {
+        padding-bottom: 20px;
+    }
+
+    .about {
+        margin-top: 30px;
+    }
+
+    .about-img {
+        width: 100%;
+        height: 536px;
+        object-fit: cover;
+    
+    }
+
+    .about-button {
+        padding: 5px 20px;
+        display: inline-block;
+    }
+
+    .about-button {
+        padding: 5px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .team {
+        margin-top: 40px;
+    }
+
+    .team-img {
+        width: 100%;
+        height: 380px;
+        object-fit: cover;
+    }
+
+    .contact-gallery {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+  
+}
+
+/* Desktop version */
+@media only screen and (min-width:992px) {
+
+    /* ============Section Navbar================= */
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end !important;
+    }
+
+    #nav-snobella {
+        font-size: 40px;
+        line-height: 100%;
+    }
+
+    
+
+    .services {
+        margin-top: 60px;
+    }
+
+    .services-gallery {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .works {
+        margin-top: 60px;
+    }
+
+    .work-gallery {
+        margin-top: 60px;
+    }
+
+    .prices {
+        margin-top: 60px;
+    }
+
+    .price-gallery {
+        margin-top: 50px;
+    }
+
+    .testimonial-text {
+        margin-top: 60px;
+    }
+
+    .marketing {
+        padding-bottom: 30px;
+    }
+
+    .testimonial-header {
+        margin-top: 60px;
+    }
+
+    .about {
+        margin-top: 60px;
+    }
+
+    .about-img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    
+    }
+
+    .about-button {
+        padding: 5px 20px;
+        display: inline-block;
+    }
+
+    .team {
+        margin-top: 60px;
+    }
+
+    .team-img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .contact-gallery {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .mt-50 {
+        margin-top: 50px;
+    }
+
+  
+
+
+}
+
+
+
